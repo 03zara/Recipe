@@ -1,7 +1,5 @@
 
 var myData;
-
-
 var input = document.getElementById("input");
 var button = document.getElementById("button");
  
@@ -79,6 +77,8 @@ function loadData() {
             }
             
             else {
+                
+            clearAll();
                 
             document.getElementById("welcome").style.display = "none";
                 
